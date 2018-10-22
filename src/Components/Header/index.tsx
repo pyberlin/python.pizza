@@ -31,12 +31,12 @@ export default class Header extends React.Component {
                     <ul className="header--links">
                         <li>
                             <a onClick={this.onNavClick} href="#about" data-destination="about">
-                                Su di noi
+                                About Us
                             </a>
                         </li>
                         <li>
                             <a onClick={this.onNavClick} href="#schedule" data-destination="schedule">
-                                Programma
+                                Schedule
                             </a>
                         </li>
                         <li>
@@ -50,7 +50,7 @@ export default class Header extends React.Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Biglietti
+                                Tickets
                             </a>
                         </li>
                     </ul>
