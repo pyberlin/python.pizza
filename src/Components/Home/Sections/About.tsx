@@ -8,12 +8,17 @@ export default class About extends React.Component {
             <section id="about">
                 <Container size={Sizes.small}>
                     <h1>About Us</h1>
+
                     <p>
-                        berlin.python.pizza is a micro conference organized by the Python Berlin Community
-                        le ultime tendenze di programmazione Python organizzando sessioni di talk con speakers
-                        provenienti da tutta Italia, e di invogliare le persone a creare a loro volta community locali
-                        ed eventi per accelerare lo sviluppo tecnologico nel sud Italia.
+                        <b>Python Pizza</b> is a micro conference organized by the Python Berlin Community.
+                        We bring the Python Community together for some amazing original Pizza™.
                     </p>
+
+                    <p>
+                        We believe in and encourage practical sessions, in which developers share their experience and lessons from real-world projects.
+                        Each talk is 10 mins lenght talk.
+                    </p>
+
                 </Container>
             </section>
         );

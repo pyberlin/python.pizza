@@ -68,13 +68,7 @@ export const SPONSORS: Sponsor[][] = [
             name: 'Bit4Id',
             photo: require('Assets/sponsors/bit4id.png'),
             link: 'http://www.bit4id.it/',
-        },
-        {
-            id: 'roll',
-            name: 'ROLL',
-            photo: require('Assets/sponsors/roll.png'),
-            link: 'https://rollstudio.co.uk/',
-        },
+        }
     ],
     [
         {
@@ -82,19 +76,7 @@ export const SPONSORS: Sponsor[][] = [
             name: 'Python Italia',
             photo: require('Assets/sponsors/python-italia.png'),
             link: 'https://pycon.it/',
-        },
-        {
-            id: 'psf',
-            name: 'Python Software Foundation',
-            photo: require('Assets/sponsors/psf.png'),
-            link: 'https://www.012factory.it/',
-        },
-        {
-            id: 'f012actory',
-            name: '012 Factory',
-            photo: require('Assets/sponsors/012factory.png'),
-            link: 'https://www.012factory.it/',
-        },
+        }
     ],
     [
         {
@@ -102,25 +84,7 @@ export const SPONSORS: Sponsor[][] = [
             name: 'Sorbillo',
             photo: require('Assets/sponsors/sorbillo.png'),
             link: 'http://sorbillo.it',
-        },
-        {
-            id: 'jetbrains',
-            name: 'Jetbrains',
-            photo: require('Assets/sponsors/jetbrains.png'),
-            link: 'https://www.jetbrains.com/',
-        },
-        {
-            id: 'tattakki',
-            name: 'Tattakki',
-            photo: require('Assets/sponsors/tattakki.png'),
-            link: 'https://www.instagram.com/tattakki/',
-        },
-        {
-            id: 'notabug',
-            name: 'Not a bug Conf',
-            photo: require('Assets/sponsors/notabugconf.png'),
-            link: 'https://notabugconf.it/',
-        },
+        }
     ],
 ];
 
@@ -140,16 +104,14 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 2,
         time: '09:45',
-        title: "Codice Ratio: mining nell'Archivio Segreto Vaticano",
-        type: Types.TALK,
-        speaker: ELENA_NIEDDU,
+        title: "Free slot",
+        type: Types.OTHER,
     },
     {
         order: 3,
         time: '10:00',
-        title: 'L’approccio a micro-servizi per le web-application con python e docker',
-        type: Types.TALK,
-        speaker: DOMENICO_TESTA,
+        title: "Free slot",
+        type: Types.OTHER,
     },
     {
         order: 4,
@@ -160,16 +122,14 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 5,
         time: '11:20',
-        title: 'Introduzione alle applicazioni realtime con Django',
-        type: Types.TALK,
-        speaker: IACOPO_SPALLETTI,
+        title: "Free slot",
+        type: Types.OTHER,
     },
     {
         order: 6,
         time: '11:35',
-        title: 'AI at the edge with Intel Neural Compute Stick',
-        type: Types.TALK,
-        speaker: VINCENZO_SANTOPIETRO,
+        title: "Free slot",
+        type: Types.OTHER,
     },
     {
         order: 7,
@@ -180,15 +140,14 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 8,
         time: '15:00',
-        title: 'Scrivere i primi test frontend con python? Si Può!',
-        type: Types.TALK,
-        speaker: FIORELLA_DE_LUCA,
+        title: "Free slot",
+        type: Types.OTHER,
     },
     {
         order: 9,
         time: '15:45',
-        title: 'TBA: To Be Avoided - Coding Horrors and Pythonic Rants',
-        type: Types.TALK,
+        title: "Free slot",
+        type: Types.OTHER,
         speaker: VALERIO_MAGGIO,
     },
     {
@@ -200,15 +159,15 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 11,
         time: '16:45',
-        title: 'Read the stars with Apistar',
-        type: Types.TALK,
+        title: "Free slot",
+        type: Types.OTHER,
         speaker: SALVATORE_BUSIELLO,
     },
     {
         order: 12,
         time: '17:30',
-        title: 'Estendere Python con Go',
-        type: Types.TALK,
+        title: "Free slot",
+        type: Types.OTHER,
         speaker: ANDREA_STAGI,
     },
     {
@@ -219,8 +178,8 @@ export const SCHEDULE: Schedule[] = [
     },
     {
         order: 14,
-        time: '19:15',
-        title: 'Dinner',
+        time: '18:30',
+        title: 'Happy hour & Networking',
         type: Types.OTHER,
     },
 ];
