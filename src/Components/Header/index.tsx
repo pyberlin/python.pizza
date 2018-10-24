@@ -31,7 +31,7 @@ export default class Header extends React.Component {
                     <ul className="header--links">
                         <li>
                             <a onClick={this.onNavClick} href="#about" data-destination="about">
-                                About Us
+                                About Python Pizza
                             </a>
                         </li>
                         <li>
