@@ -86,15 +86,6 @@ export default () => (
                 We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues—online and in-person—as well as in all one-on-one communications pertaining to community business.
             </p>
 
-            <ul>
-                <li>
-                    Marco Acierno{' '}
-                    <a rel="noopener noreferrer" target="_blank" href="mailto:marco@python.pizza">
-                        marco@python.pizza
-                    </a>
-                </li>
-            </ul>
-
             <p>
                 Inspired by the{' '}
                 <a

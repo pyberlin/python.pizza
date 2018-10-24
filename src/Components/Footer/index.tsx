@@ -7,24 +7,14 @@ import Container, { Sizes } from '@/Components/Container';
 
 const SOCIALS = [
     {
-        name: 'facebook',
-        icon: require('Assets/socials/facebook.png'),
-        link: 'https://www.facebook.com/pythonpizza/',
-    },
-    {
         name: 'twitter',
         icon: require('Assets/socials/twitter.png'),
         link: 'https://twitter.com/pythonpizzaconf/',
     },
     {
-        name: 'instagram',
-        icon: require('Assets/socials/instagram.png'),
-        link: 'https://www.instagram.com/python.pizza/',
-    },
-    {
-        name: 'youtube',
+        name: 'github',
         icon: require('Assets/socials/youtube.png'),
-        link: 'https://www.youtube.com/channel/UCdtynhT6G97JwdDPsiKbx8Q/',
+        link: 'https://github.com/pyberlin/python.pizza',
     },
 ];
 
