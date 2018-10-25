@@ -35,6 +35,11 @@ export default class Header extends React.Component {
                             </a>
                         </li>
                         <li>
+                            <a onClick={this.onNavClick} href="https://goo.gl/forms/zBtuvc5juKRFeNb82">
+                                CfP
+                            </a>
+                        </li>
+                        <li>
                             <a onClick={this.onNavClick} href="#schedule" data-destination="schedule">
                                 Schedule
                             </a>
