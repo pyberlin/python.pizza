@@ -63,28 +63,13 @@ export const SPEAKERS: Speaker[] = [
 
 export const SPONSORS: Sponsor[][] = [
     [
-        {
-            id: 'bit4id',
-            name: 'Bit4Id',
-            photo: require('Assets/sponsors/bit4id.png'),
-            link: 'http://www.bit4id.it/',
-        }
+
     ],
     [
-        {
-            id: 'pythonitalia',
-            name: 'Python Italia',
-            photo: require('Assets/sponsors/python-italia.png'),
-            link: 'https://pycon.it/',
-        }
+
     ],
     [
-        {
-            id: 'sorbillo',
-            name: 'Sorbillo',
-            photo: require('Assets/sponsors/sorbillo.png'),
-            link: 'http://sorbillo.it',
-        }
+
     ],
 ];
 
