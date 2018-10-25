@@ -6,7 +6,7 @@ export default class About extends React.Component {
     render() {
         return (
             <section id="about">
-                <Container size={Sizes.medium}>
+                <Container size={Sizes.small}>
                     <h1>About Python Pizza</h1>
 
                     <p>
