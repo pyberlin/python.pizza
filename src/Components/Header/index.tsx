@@ -35,11 +35,6 @@ export default class Header extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="https://goo.gl/forms/zBtuvc5juKRFeNb82" target="_blank">
-                                Submit a talk
-                            </a>
-                        </li>
-                        <li>
                             <a onClick={this.onNavClick} href="#schedule" data-destination="schedule">
                                 Schedule
                             </a>
@@ -50,12 +45,8 @@ export default class Header extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a
-                                href="https://www.eventbrite.com/e/biglietti-python-pizza-2018-47214434645?aff=website"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Tickets
+                            <a href="https://goo.gl/forms/zBtuvc5juKRFeNb82" target="_blank">
+                                Submit a talk
                             </a>
                         </li>
                     </ul>
