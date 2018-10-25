@@ -16,10 +16,7 @@ export default class About extends React.Component {
                         We bring the Python Community together for some amazing original Pizza™.
 
                         <br />
-                        We believe in and encourage practical sessions, in which developers share their experience and lessons from real-world projects.
-
-                        <br />
-                        Each talk is 10 mins lenght talk.
+                        We believe in and encourage practical sessions, in which developers share their experience and lessons from real-world projects, each talk is 10 mins lenght talk.
                     </p>
 
                 </Container>

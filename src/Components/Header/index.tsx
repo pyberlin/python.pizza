@@ -35,8 +35,8 @@ export default class Header extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a onClick={this.onNavClick} href="https://goo.gl/forms/zBtuvc5juKRFeNb82">
-                                CfP
+                            <a href="https://goo.gl/forms/zBtuvc5juKRFeNb82" target="_blank">
+                                Submit a talk
                             </a>
                         </li>
                         <li>
