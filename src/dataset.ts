@@ -63,7 +63,12 @@ export const SPEAKERS: Speaker[] = [
 
 export const SPONSORS: Sponsor[][] = [
     [
-
+        {
+            id: 'wooga',
+            name: 'Wooga',
+            photo: require('Assets/sponsors/wooga_logo.png'),
+            link: 'https://www.wooga.com/',
+        },
     ],
     [
 
