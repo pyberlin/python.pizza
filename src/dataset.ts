@@ -76,12 +76,6 @@ export const SPONSORS: Sponsor[][] = [
             link: 'https://www.python.org/psf/',
         },
     ],
-    [
-
-    ],
-    [
-
-    ],
 ];
 
 export const SCHEDULE: Schedule[] = [
