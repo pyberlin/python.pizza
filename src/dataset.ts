@@ -69,6 +69,12 @@ export const SPONSORS: Sponsor[][] = [
             photo: require('Assets/sponsors/wooga_logo.png'),
             link: 'https://www.wooga.com/',
         },
+        {
+            id: 'psf',
+            name: 'Python Software Foundation',
+            photo: require('Assets/sponsors/psf-logo-narrow-256x84-alpha.png'),
+            link: 'https://www.python.org/psf/',
+        },
     ],
     [
 
