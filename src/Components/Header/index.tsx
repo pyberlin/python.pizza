@@ -45,6 +45,11 @@ export default class Header extends React.Component {
                             </a>
                         </li>
                         <li>
+                            <a onClick={this.onNavClick} href="#coc" data-destination="coc">
+                                CoC
+                            </a>
+                        </li>
+                        <li>
                             <a href="https://goo.gl/forms/zBtuvc5juKRFeNb82" target="_blank">
                                 Submit a talk
                             </a>
