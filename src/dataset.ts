@@ -2,7 +2,7 @@ import Speaker from '@/Types/Speaker';
 import Sponsor from '@/Types/Sponsor';
 import Schedule, { Types } from '@/Types/Schedule';
 
-const DOMENICO_TESTA = 0;
+const KEYNOTES = 0;
 const FIORELLA_DE_LUCA = 1;
 const ANDREA_STAGI = 2;
 const SALVATORE_BUSIELLO = 3;
@@ -13,9 +13,9 @@ const ELENA_NIEDDU = 7;
 
 export const SPEAKERS: Speaker[] = [
     {
-        name: 'Domenico Testa',
-        photo: require('../assets/speakers/domenico-testa.jpg'),
-        job: 'Bit4id',
+        name: 'Amazing speaker!',
+        photo: require('../assets/speakers/keynotes.jpg'),
+        job: 'Speaker',
     },
     {
         name: 'Fiorella De Luca',
@@ -94,8 +94,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 2,
         time: '09:30',
-        title: "Keynote",
-        type: Types.OTHER,
+        title: "Keynote: TBA",
+        type: Types.TALK,
+        speaker: KEYNOTES,
     },
     {
         order: 3,
@@ -187,8 +188,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 17,
         time: '14:30',
-        title: "Keynote",
-        type: Types.OTHER,
+        title: "Keynote: TBA",
+        type: Types.TALK,
+        speaker: KEYNOTES,
     },
 
     {
