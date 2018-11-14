@@ -13,7 +13,7 @@ const ELENA_NIEDDU = 7;
 
 export const SPEAKERS: Speaker[] = [
     {
-        name: 'Amazing speaker!',
+        name: '',
         photo: require('../assets/speakers/keynotes.png'),
         job: 'Speaker',
     },
@@ -94,7 +94,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 2,
         time: '09:30',
-        title: "Keynote: TBA",
+        title: "Keynote TBA",
         type: Types.TALK,
         speaker: KEYNOTES,
     },
@@ -182,13 +182,13 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 16,
         time: '13:00',
-        title: 'Oh gosh, Pizza!',
+        title: '🍕 Oh gosh pizza!!! 🍕',
         type: Types.LUNCH,
     },
     {
         order: 17,
         time: '14:30',
-        title: "Keynote: TBA",
+        title: "Keynote TBA",
         type: Types.TALK,
         speaker: KEYNOTES,
     },
