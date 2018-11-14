@@ -14,7 +14,7 @@ const ELENA_NIEDDU = 7;
 export const SPEAKERS: Speaker[] = [
     {
         name: 'Amazing speaker!',
-        photo: require('../assets/speakers/keynotes.jpg'),
+        photo: require('../assets/speakers/keynotes.png'),
         job: 'Speaker',
     },
     {
