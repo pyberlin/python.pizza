@@ -75,6 +75,12 @@ export const SPONSORS: Sponsor[][] = [
             photo: require('Assets/sponsors/psf-logo-narrow-256x84-alpha.png'),
             link: 'https://www.python.org/psf/',
         },
+        {
+            id: 'manning',
+            name: 'Manning',
+            photo: require('Assets/sponsors/Manninglogo_outline.png'),
+            link: 'https://www.manning.com/',
+        },
     ],
 ];
 
