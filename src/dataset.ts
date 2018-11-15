@@ -188,7 +188,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 16,
         time: '13:00',
-        title: '🍕 Oh gosh pizza!!! 🍕',
+        title: '🍕 Oh gosh pizza 🍕',
         type: Types.LUNCH,
     },
     {
