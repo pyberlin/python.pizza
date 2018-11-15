@@ -55,7 +55,7 @@ export default class Header extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="https://ti.to/pythonpizza/python-pizza-2019" target="_blank">
+                            <a href="https://ti.to/pythonpizza/berlin-python-pizza" target="_blank">
                                 Buy a ticket
                             </a>
                         </li>
