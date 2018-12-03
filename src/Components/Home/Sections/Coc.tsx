@@ -121,8 +121,8 @@ export default () => (
                 Important contact numbers:
                 <br />
                 <br />
-                Police: Keibelstraße 35, 10178 Berlin, phone number 110<br />
-                Medical Emergency: Call 112.
+                Police: Keibelstraße 35, 10178 Berlin, call 110<br />
+                Medical Emergency: call 112
             </p>
 
             <h2>Anonymous report</h2>
