@@ -81,6 +81,12 @@ export const SPONSORS: Sponsor[][] = [
             photo: require('Assets/sponsors/Manninglogo_outline.png'),
             link: 'https://www.manning.com/',
         },
+        {
+            id: 'eps',
+            name: 'EuroPython Society',
+            photo: require('Assets/sponsors/eps.png'),
+            link: 'https://www.europython-society.org/',
+        },
     ],
 ];
 
