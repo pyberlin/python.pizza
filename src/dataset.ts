@@ -3,7 +3,7 @@ import Sponsor from '@/Types/Sponsor';
 import Schedule, { Types } from '@/Types/Schedule';
 
 const KEYNOTES = 0;
-const FIORELLA_DE_LUCA = 1;
+const NAOMI_CEDER = 1;
 const ANDREA_STAGI = 2;
 const SALVATORE_BUSIELLO = 3;
 const VINCENZO_SANTOPIETRO = 4;
@@ -18,10 +18,10 @@ export const SPEAKERS: Speaker[] = [
         job: 'Speaker',
     },
     {
-        name: 'Fiorella De Luca',
-        photo: require('../assets/speakers/fiorella-de-luca.jpg'),
-        job: 'Women Techmakers',
-        social: 'https://twitter.com/fiorella_deluca',
+        name: 'Naomi Ceder, Chair of The PSF',
+        photo: require('../assets/speakers/naomi_ceder.jpg'),
+        job: 'Chair @ Python Software Foundation',
+        social: 'https://twitter.com/naomiceder',
     },
     {
         name: 'Andrea Stagi',
@@ -76,16 +76,16 @@ export const SPONSORS: Sponsor[][] = [
             link: 'https://www.python.org/psf/',
         },
         {
-            id: 'manning',
-            name: 'Manning',
-            photo: require('Assets/sponsors/Manninglogo_outline.png'),
-            link: 'https://www.manning.com/',
-        },
-        {
             id: 'eps',
             name: 'EuroPython Society',
             photo: require('Assets/sponsors/eps.png'),
             link: 'https://www.europython-society.org/',
+        },
+        {
+            id: 'manning',
+            name: 'Manning',
+            photo: require('Assets/sponsors/Manninglogo_outline.png'),
+            link: 'https://www.manning.com/',
         },
     ],
 ];
@@ -106,9 +106,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 2,
         time: '09:30',
-        title: "Keynote TBA",
+        title: "Keynote: TBA",
         type: Types.TALK,
-        speaker: KEYNOTES,
+        speaker: NAOMI_CEDER,
     },
     {
         order: 3,
