@@ -4,7 +4,7 @@ import Schedule, { Types } from '@/Types/Schedule';
 
 const KEYNOTES = 0;
 const NAOMI_CEDER = 1;
-const ANDREA_STAGI = 2;
+const YENNY_CHEUNG = 2;
 const SALVATORE_BUSIELLO = 3;
 const VINCENZO_SANTOPIETRO = 4;
 const IACOPO_SPALLETTI = 5;
@@ -24,10 +24,10 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/naomiceder',
     },
     {
-        name: 'Andrea Stagi',
-        photo: require('../assets/speakers/andrea-stagi.jpg'),
-        job: 'Lotrek',
-        social: 'https://twitter.com/4stagi',
+        name: 'Yenny Cheung, Software Engineer @ Yelp',
+        photo: require('../assets/speakers/yenny_cheung.jpg'),
+        job: 'Software Enginer @Yelp',
+        social: 'https://twitter.com/yennycheung',
     },
     {
         name: 'Salvatore Busiello',
@@ -202,7 +202,7 @@ export const SCHEDULE: Schedule[] = [
         time: '14:30',
         title: "Keynote TBA",
         type: Types.TALK,
-        speaker: KEYNOTES,
+        speaker: YENNY_CHEUNG,
     },
 
     {
@@ -276,7 +276,7 @@ export const SCHEDULE: Schedule[] = [
 
     {
         order: 29,
-        time: '127:30',
+        time: '17:30',
         title: "Free slot",
         type: Types.OTHER,
     },
