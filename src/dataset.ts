@@ -24,15 +24,15 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/naomiceder',
     },
     {
-        name: 'Yenny Cheung, Software Engineer@Yelp',
+        name: 'Yenny Cheung, Software Engineer @Yelp',
         photo: require('../assets/speakers/yenny_cheung.jpg'),
         job: 'Software Enginer @Yelp',
         social: 'https://twitter.com/yennycheung',
     },
     {
-        name: 'Ana Paula Gomes, Software Engineer@Thermondo',
+        name: 'Ana Paula Gomes, Software Engineer @Thermondo',
         photo: require('../assets/speakers/anapaula.jpg'),
-        job: 'Software Engineer @ Thermondo',
+        job: 'Software Engineer @Thermondo',
         social: 'https://twitter.com/anapaulagomess',
     },
     {
@@ -48,9 +48,9 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/hendorf',
     },
     {
-        name: 'Patrick Arminio, Full Stack Dev@OnVerveTech',
+        name: 'Patrick Arminio, Backend Engineer @OnVerveTech',
         photo: require('../assets/speakers/patrick_arminio.jpg'),
-        job: 'Full Stack Dev@OnVerveTech',
+        job: 'Backend Engineer @OnVerveTech',
         social: 'https://twitter.com/patrick91',
     },
     {
