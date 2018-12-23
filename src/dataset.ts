@@ -134,7 +134,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 5,
         time: '10:24',
-        title: "Python on bare metal - fast & efficient code with MircoPython",
+        title: "Python on bare metal - fast & efficient code with MicroPython",
         type: Types.TALK,
         speaker: JESSICA_GREENE,
     },
