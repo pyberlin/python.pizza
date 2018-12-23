@@ -5,8 +5,8 @@ import Schedule, { Types } from '@/Types/Schedule';
 const KEYNOTES = 0;
 const NAOMI_CEDER = 1;
 const YENNY_CHEUNG = 2;
-const SALVATORE_BUSIELLO = 3;
-const VINCENZO_SANTOPIETRO = 4;
+const ANA_PAULA_GOMES = 3;
+const AVARE_STEWART = 4;
 const IACOPO_SPALLETTI = 5;
 const VALERIO_MAGGIO = 6;
 const ELENA_NIEDDU = 7;
@@ -30,10 +30,10 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/yennycheung',
     },
     {
-        name: 'Salvatore Busiello',
-        photo: require('../assets/speakers/salvatore-busiello.jpg'),
-        job: 'Lotrek',
-        social: 'https://twitter.com/owanesh',
+        name: 'Ana Paula Gomes',
+        photo: require('../assets/speakers/anapaula.jpg'),
+        job: 'Software Engineer @ Thermondo',
+        social: 'https://twitter.com/anapaulagomess',
     },
     {
         name: 'Vincenzo Santopietro',
@@ -113,8 +113,8 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 3,
         time: '10:00',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Creating a Twitter client for Matt Murdock",
+        type: ANA_PAULA_GOMES,
     },
     {
         order: 4,
