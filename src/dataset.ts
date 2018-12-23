@@ -7,7 +7,7 @@ const NAOMI_CEDER = 1;
 const YENNY_CHEUNG = 2;
 const ANA_PAULA_GOMES = 3;
 const AVARE_STEWART = 4;
-const IACOPO_SPALLETTI = 5;
+const ALEXANDER_CS_HENDORF = 5;
 const VALERIO_MAGGIO = 6;
 const ELENA_NIEDDU = 7;
 
@@ -24,28 +24,28 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/naomiceder',
     },
     {
-        name: 'Yenny Cheung, Software Engineer @ Yelp',
+        name: 'Yenny Cheung, Software Engineer@Yelp',
         photo: require('../assets/speakers/yenny_cheung.jpg'),
         job: 'Software Enginer @Yelp',
         social: 'https://twitter.com/yennycheung',
     },
     {
-        name: 'Ana Paula Gomes',
+        name: 'Ana Paula Gomes, Software Engineer@Thermondo',
         photo: require('../assets/speakers/anapaula.jpg'),
         job: 'Software Engineer @ Thermondo',
         social: 'https://twitter.com/anapaulagomess',
     },
     {
-        name: 'Avaré Stewart',
+        name: 'Avaré Stewart, Data Scientist',
         photo: require('../assets/speakers/avarestewart.jpg'),
         job: 'Data Scientist',
         social: 'https://twitter.com/AvareStewart',
     },
     {
-        name: 'Iacopo Spalletti',
-        photo: require('../assets/speakers/iacopo-spalletti.png'),
-        job: 'Nephila',
-        social: 'https://twitter.com/yakkys',
+        name: 'Alexander CS Hendorf, Senior Data Consultant',
+        photo: require('../assets/speakers/alexhendorf.png'),
+        job: 'Königsweg',
+        social: 'https://twitter.com/hendorf',
     },
     {
         name: 'Valerio Maggio',
@@ -120,8 +120,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 4,
         time: '10:12',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Deep Learning for Fun (Part 2.75)",
+        type: Types.TALK,
+        speaker: ALEXANDER_CS_HENDORF,
     },
     {
         order: 5,
