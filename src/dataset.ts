@@ -12,6 +12,7 @@ const PATRICK_ARMINIO = 6;
 const JESSICA_GREENE = 7;
 const MARKUS_HOLTERMANN = 8;
 const CRISTIAN_MAUREIRA_FREDES = 9;
+const ANASTASIIA_TYMOSHCHUK = 10;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -72,6 +73,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/cristian_maureira.jpg'),
         job: 'Cristián Maureira-Fredes, Software Engineer @qtproject',
         social: 'https://twitter.com/cmaureir',
+    },
+    {
+        name: 'Anastasiia Tymoshchuk, Lead software Developer @cyreninc',
+        photo: require('../assets/speakers/anastasiia_t.jpg'),
+        job: 'Anastasiia Tymoshchuk, Lead software Developer @cyreninc',
+        social: 'https://twitter.com/anastasiatymo',
     },
 ];
 
@@ -158,14 +165,12 @@ export const SCHEDULE: Schedule[] = [
         title: "Free slot",
         type: Types.OTHER,
     },
-
     {
         order: 8,
         time: '11:00',
         title: 'Break',
         type: Types.BREAK,
     },
-
     {
         order: 9,
         time: '11:30',
@@ -176,8 +181,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 10,
         time: '11:42',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Ravioli 🆚 Pelmeni software architecture (microservices vs services)",
+        type: Types.TALK,
+        speaker: ANASTASIIA_TYMOSHCHUK,
     },
     {
         order: 11,
@@ -197,7 +203,6 @@ export const SCHEDULE: Schedule[] = [
         title: "Free slot",
         type: Types.OTHER,
     },
-
     {
         order: 14,
         time: '12:30',
@@ -223,20 +228,19 @@ export const SCHEDULE: Schedule[] = [
         type: Types.TALK,
         speaker: YENNY_CHEUNG,
     },
-
     {
         order: 18,
         time: '15:00',
-        title: "Building - Distributed - Data Science Team",
+        title: "Strawberry: a new GraphQL library for Python",
         type: Types.TALK,
-        speaker: AVARE_STEWART,
+        speaker: PATRICK_ARMINIO,
     },
     {
         order: 19,
         time: '15:12',
-        title: "Strawberry: a new GraphQL library for Python",
+        title: "Building - Distributed - Data Science Team",
         type: Types.TALK,
-        speaker: PATRICK_ARMINIO,
+        speaker: AVARE_STEWART,
     },
     {
         order: 20,
