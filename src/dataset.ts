@@ -11,6 +11,7 @@ const ALEXANDER_CS_HENDORF = 5;
 const PATRICK_ARMINIO = 6;
 const JESSICA_GREENE = 7;
 const MARKUS_HOLTERMANN = 8;
+const CRISTIAN_MAUREIRA_FREDES = 9;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -65,6 +66,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/markus_holtermann.jpg'),
         job: 'Markus Holtermann, Engineer @crateiow',
         social: 'https://twitter.com/m_holtermann',
+    },
+    {
+        name: 'Cristián Maureira-Fredes, Software Engineer at @qtproject',
+        photo: require('../assets/speakers/cristian_maureira.jpg'),
+        job: 'Cristián Maureira-Fredes, Software Engineer @qtproject',
+        social: 'https://twitter.com/cmaureir',
     },
 ];
 
@@ -162,8 +169,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 9,
         time: '11:30',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Bring your C++ project to Python land",
+        type: Types.TALK,
+        speaker: CRISTIAN_MAUREIRA_FREDES,
     },
     {
         order: 10,
