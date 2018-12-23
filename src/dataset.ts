@@ -42,7 +42,7 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/AvareStewart',
     },
     {
-        name: 'Alexander CS Hendorf, Senior Data Consultant',
+        name: 'Alexander Hendorf, Senior Data Consultant',
         photo: require('../assets/speakers/alexhendorf.png'),
         job: 'Königsweg',
         social: 'https://twitter.com/hendorf',
