@@ -36,10 +36,10 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/anapaulagomess',
     },
     {
-        name: 'Vincenzo Santopietro',
-        photo: require('../assets/speakers/vincenzo-santopietro.jpg'),
-        job: 'Intel Student Ambassador',
-        social: 'https://twitter.com/vinx_key',
+        name: 'Avaré Stewart',
+        photo: require('../assets/speakers/avarestewart.jpg'),
+        job: 'Data Scientist',
+        social: 'https://twitter.com/AvareStewart',
     },
     {
         name: 'Iacopo Spalletti',
@@ -114,7 +114,8 @@ export const SCHEDULE: Schedule[] = [
         order: 3,
         time: '10:00',
         title: "Creating a Twitter client for Matt Murdock",
-        type: ANA_PAULA_GOMES,
+        type: Types.TALK,
+        speaker: ANA_PAULA_GOMES,
     },
     {
         order: 4,
@@ -208,8 +209,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 18,
         time: '15:00',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Building - Distributed - Data Science Team",
+        type: Types.TALK,
+        speaker: AVARE_STEWART,
     },
     {
         order: 19,
