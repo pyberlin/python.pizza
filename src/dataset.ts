@@ -8,8 +8,8 @@ const YENNY_CHEUNG = 2;
 const ANA_PAULA_GOMES = 3;
 const AVARE_STEWART = 4;
 const ALEXANDER_CS_HENDORF = 5;
-const VALERIO_MAGGIO = 6;
-const ELENA_NIEDDU = 7;
+const PATRICK_ARMINIO = 6;
+const JESSICA_GREENE = 7;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -48,16 +48,16 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/hendorf',
     },
     {
-        name: 'Valerio Maggio',
-        photo: require('../assets/speakers/valerio-maggio.jpg'),
-        job: 'Fondazione Bruno Kessler',
-        social: 'https://twitter.com/leriomaggio',
+        name: 'Patrick Arminio, Full Stack Dev@OnVerveTech',
+        photo: require('../assets/speakers/patrick_arminio.jpg'),
+        job: 'Full Stack Dev@OnVerveTech',
+        social: 'https://twitter.com/patrick91',
     },
     {
-        name: 'Elena Nieddu',
-        photo: require('../assets/speakers/elena-nieddu.jpg'),
-        job: 'PhD student in Computer Science',
-        social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
+        name: 'Jessica Greene, Junior Developer @Ecosia',
+        photo: require('../assets/speakers/jessica_greene.jpg'),
+        job: 'Junior Developer @Ecosia',
+        social: 'https://twitter.com/sleepypioneer',
     },
 ];
 
@@ -127,8 +127,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 5,
         time: '10:24',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Python on bare metal - fast & efficient code with MircoPython",
+        type: Types.TALK,
+        speaker: JESSICA_GREENE,
     },
     {
         order: 6,
@@ -217,8 +218,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 19,
         time: '15:12',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Strawberry: a new GraphQL library for Python",
+        type: Types.TALK,
+        speaker: PATRICK_ARMINIO,
     },
     {
         order: 20,
