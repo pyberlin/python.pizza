@@ -16,11 +16,6 @@ const ANASTASIIA_TYMOSHCHUK = 10;
 
 export const SPEAKERS: Speaker[] = [
     {
-        name: '',
-        photo: require('../assets/speakers/keynotes.png'),
-        job: 'Speaker',
-    },
-    {
         name: 'Naomi Ceder, Chair of The PSF',
         photo: require('../assets/speakers/naomi_ceder.jpg'),
         job: 'Chair @ Python Software Foundation',
