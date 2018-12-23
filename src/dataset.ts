@@ -10,6 +10,7 @@ const AVARE_STEWART = 4;
 const ALEXANDER_CS_HENDORF = 5;
 const PATRICK_ARMINIO = 6;
 const JESSICA_GREENE = 7;
+const MARKUS_HOLTERMANN = 8;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -58,6 +59,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/jessica_greene.jpg'),
         job: 'Junior Developer @Ecosia',
         social: 'https://twitter.com/sleepypioneer',
+    },
+    {
+        name: 'Markus Holtermann, Engineer @crateio',
+        photo: require('../assets/speakers/markus_holtermann.jpg'),
+        job: 'Markus Holtermann, Engineer @crateiow',
+        social: 'https://twitter.com/m_holtermann',
     },
 ];
 
@@ -134,8 +141,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 6,
         time: '10:36',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Oh, I Found a Security Issue",
+        type: Types.TALK,
+        speaker: MARKUS_HOLTERMANN,
     },
     {
         order: 7,
