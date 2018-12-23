@@ -69,7 +69,7 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/m_holtermann',
     },
     {
-        name: 'Cristián Maureira-Fredes, Software Engineer at @qtproject',
+        name: 'Cristián Maureira-Fredes, Software Engineer @qtproject',
         photo: require('../assets/speakers/cristian_maureira.jpg'),
         job: 'Cristián Maureira-Fredes, Software Engineer @qtproject',
         social: 'https://twitter.com/cmaureir',
