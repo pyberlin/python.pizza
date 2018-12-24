@@ -14,6 +14,7 @@ const MARKUS_HOLTERMANN = 8;
 const CRISTIAN_MAUREIRA_FREDES = 9;
 const ANASTASIIA_TYMOSHCHUK = 10;
 const RICHARD_GOULD = 11;
+const JEREMY_TULOUP = 12;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -86,6 +87,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/richard_gould.jpg'),
         job: 'Richard Gould, Senior Backend Engineer @daliaresearch',
         social: 'https://twitter.com/u2622',
+    },
+    {
+        name: 'Jeremy Tuloup, Software Engineer @wooga',
+        photo: require('../assets/speakers/jeremy_tuloup.jpg'),
+        job: 'Jeremy Tuloup, Software Engineer @wooga',
+        social: 'https://twitter.com/jtpio',
     },
 ];
 
@@ -252,8 +259,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 20,
         time: '15:24',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Inspecting CPython Bytecode in JupyterLab",
+        type: Types.TALK,
+        speaker: JEREMY_TULOUP,
     },
     {
         order: 21,
