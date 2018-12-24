@@ -13,6 +13,7 @@ const JESSICA_GREENE = 7;
 const MARKUS_HOLTERMANN = 8;
 const CRISTIAN_MAUREIRA_FREDES = 9;
 const ANASTASIIA_TYMOSHCHUK = 10;
+const RICHARD_GOULD = 11;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -79,6 +80,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/anastasiia_t.jpg'),
         job: 'Anastasiia Tymoshchuk, Lead software Developer @cyreninc',
         social: 'https://twitter.com/anastasiatymo',
+    },
+    {
+        name: 'Richard Gould, Senior Backend Engineer @daliaresearch',
+        photo: require('../assets/speakers/richard_gould.jpg'),
+        job: 'Richard Gould, Senior Backend Engineer @daliaresearch',
+        social: 'https://twitter.com/u2622',
     },
 ];
 
@@ -271,8 +278,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 24,
         time: '16:30',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Code Faster By Improving Your Memory",
+        type: Types.TALK,
+        speaker: RICHARD_GOULD,
     },
     {
         order: 25,
