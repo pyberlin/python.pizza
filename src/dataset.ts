@@ -15,6 +15,7 @@ const CRISTIAN_MAUREIRA_FREDES = 9;
 const ANASTASIIA_TYMOSHCHUK = 10;
 const RICHARD_GOULD = 11;
 const JEREMY_TULOUP = 12;
+const MIKA_NAYLOR = 12;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -93,6 +94,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/jeremy_tuloup.jpg'),
         job: 'Jeremy Tuloup, Software Engineer @wooga',
         social: 'https://twitter.com/jtpio',
+    },
+    {
+        name: 'Mika Naylor, Developer @crateio',
+        photo: require('../assets/speakers/mika_naylor.jpg'),
+        job: 'Mika Naylor, Developer @crateio',
+        social: 'https://twitter.com/autophagian',
     },
 ];
 
@@ -293,8 +300,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 25,
         time: '16:42',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Any Formatter You Like, As Long As Its Black",
+        type: Types.TALK,
+        speaker: MIKA_NAYLOR,
     },
     {
         order: 26,
