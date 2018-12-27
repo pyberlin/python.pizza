@@ -16,6 +16,7 @@ const ANASTASIIA_TYMOSHCHUK = 10;
 const RICHARD_GOULD = 11;
 const JEREMY_TULOUP = 12;
 const MIKA_NAYLOR = 13;
+const DANIELA_CRACIUN = 14;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -100,6 +101,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/mika_naylor.jpg'),
         job: 'Mika Naylor, Developer @crateio',
         social: 'https://twitter.com/autophagian',
+    },
+    {
+        name: 'Daniela Crăciun, Software Engineer @deliveryhero',
+        photo: require('../assets/speakers/daniela_craciun.jpg'),
+        job: 'Daniela Crăciun, Software Engineer @deliveryhero',
+        social: 'https://github.com/danielacraciun',
     },
 ];
 
@@ -273,8 +280,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 21,
         time: '15:36',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Beyond the pip",
+        type: Types.TALK,
+        speaker: DANIELA_CRACIUN,
     },
     {
         order: 22,
