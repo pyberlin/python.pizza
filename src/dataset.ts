@@ -15,7 +15,7 @@ const CRISTIAN_MAUREIRA_FREDES = 9;
 const ANASTASIIA_TYMOSHCHUK = 10;
 const RICHARD_GOULD = 11;
 const JEREMY_TULOUP = 12;
-const MIKA_NAYLOR = 12;
+const MIKA_NAYLOR = 13;
 
 export const SPEAKERS: Speaker[] = [
     {
