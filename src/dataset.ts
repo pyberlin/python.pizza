@@ -17,6 +17,7 @@ const RICHARD_GOULD = 11;
 const JEREMY_TULOUP = 12;
 const MIKA_NAYLOR = 13;
 const DANIELA_CRACIUN = 14;
+const FINN_PAULS = 15;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -108,6 +109,12 @@ export const SPEAKERS: Speaker[] = [
         job: 'Daniela Crăciun, Software Engineer @deliveryhero',
         social: 'https://github.com/danielacraciun',
     },
+    {
+        name: 'Finn Pauls, Freelance Software Engineer',
+        photo: require('../assets/speakers/finn_pauls.jpg'),
+        job: 'Finn Pauls, Freelance Software Engineer',
+        social: 'https://twitter.com/finnpauls',
+    },
 ];
 
 export const SPONSORS: Sponsor[][] = [
@@ -190,8 +197,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 7,
         time: '10:48',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Detecting Compositional Features in Piet Mondrians Paintings with OpenCV",
+        type: Types.TALK,
+        speaker: FINN_PAULS,
     },
     {
         order: 8,
