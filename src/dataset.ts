@@ -18,6 +18,7 @@ const JEREMY_TULOUP = 12;
 const MIKA_NAYLOR = 13;
 const DANIELA_CRACIUN = 14;
 const FINN_PAULS = 15;
+const PASCAL_WENGERTER = 16;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -114,6 +115,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/finn_pauls.jpg'),
         job: 'Finn Pauls, Freelance Software Engineer',
         social: 'https://twitter.com/finnpauls',
+    },
+    {
+        name: 'Pascal Wengerter, o-Founder | MVPbuilder | basemate',
+        photo: require('../assets/speakers/pwengerter.jpg'),
+        job: 'Pascal Wengerter, o-Founder | MVPbuilder | basemate',
+        social: 'https://twitter.com/PWengerter',
     },
 ];
 
@@ -295,8 +302,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 22,
         time: '15:48',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "PDf-print all your data for fun and profit!",
+        type: Types.TALK,
+        speaker: PASCAL_WENGERTER,
     },
 
     {
