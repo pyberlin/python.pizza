@@ -19,6 +19,7 @@ const MIKA_NAYLOR = 13;
 const DANIELA_CRACIUN = 14;
 const FINN_PAULS = 15;
 const PASCAL_WENGERTER = 16;
+const MEILI_TRIANTAFYLLIDI = 17;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -117,10 +118,16 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/finnpauls',
     },
     {
-        name: 'Pascal Wengerter, o-Founder | MVPbuilder | basemate',
+        name: 'Pascal Wengerter, co-Founder | MVPbuilder | basemate',
         photo: require('../assets/speakers/pwengerter.jpg'),
-        job: 'Pascal Wengerter, o-Founder | MVPbuilder | basemate',
+        job: 'Pascal Wengerter, co-Founder | MVPbuilder | basemate',
         social: 'https://twitter.com/PWengerter',
+    },
+    {
+        name: 'Meili Triantafyllidi, Python Web Developer @uberresearch',
+        photo: require('../assets/speakers/meili_triantafyllidi.jpg'),
+        job: 'Meili Triantafyllidi, Python Web Developer @uberresearch',
+        social: 'https://twitter.com/meilitr',
     },
 ];
 
@@ -237,8 +244,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 12,
         time: '12:06',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Bring your C++ project to Python land",
+        type: Types.TALK,
+        speaker: MEILI_TRIANTAFYLLIDI,
     },
     {
         order: 13,
