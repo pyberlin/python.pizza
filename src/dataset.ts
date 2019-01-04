@@ -244,7 +244,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 12,
         time: '12:06',
-        title: "Bring your C++ project to Python land",
+        title: "Make your Big O smaller",
         type: Types.TALK,
         speaker: MEILI_TRIANTAFYLLIDI,
     },
