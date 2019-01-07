@@ -152,7 +152,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Leszek Jakubowski, Senior Software Engineer @redhat',
-        photo: require('../assets/speakers/navid_nobani.jpg'),
+        photo: require('../assets/speakers/leszek_jakubowski.jpg'),
         job: 'Leszek Jakubowski, Senior Software Engineer @redhat',
         social: 'https://twitter.com/Makdaam',
     },
