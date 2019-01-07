@@ -273,9 +273,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 13,
         time: '12:18',
-        title: "Free slot",
-        type: Types.OTHER,
-
+        title: "Ops is like tetris",
+        type: Types.TALK,
+        speaker: LESZEK_JAKUBOWSKI,
     },
     {
         order: 14,
