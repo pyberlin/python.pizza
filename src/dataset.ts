@@ -20,6 +20,7 @@ const DANIELA_CRACIUN = 14;
 const FINN_PAULS = 15;
 const PASCAL_WENGERTER = 16;
 const MEILI_TRIANTAFYLLIDI = 17;
+const MATTEO_GUSO = 18;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -128,6 +129,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/meili_triantafyllidi.jpg'),
         job: 'Meili Triantafyllidi, Python Web Developer @uberresearch',
         social: 'https://twitter.com/meilitr',
+    },
+    {
+        name: 'Matteo Guso, Freelance Data Scientist',
+        photo: require('../assets/speakers/matteo_guso.jpg'),
+        job: 'Matteo Guso, Freelance Data Scientist',
+        social: 'https://twitter.com/_teoguso',
     },
 ];
 
@@ -339,8 +346,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 26,
         time: '16:54',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Will it dockerize?",
+        type: Types.TALK,
+        speaker: MATTEO_GUSO,
     },
     {
         order: 27,
