@@ -259,8 +259,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 11,
         time: '11:54',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Python + Neo4j: How a Graph DB can make a transit app more intelligent",
+        type: Types.TALK,
+        speaker: NAVID_NOBANI,
     },
     {
         order: 12,
