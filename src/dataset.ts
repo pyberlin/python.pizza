@@ -21,6 +21,8 @@ const FINN_PAULS = 15;
 const PASCAL_WENGERTER = 16;
 const MEILI_TRIANTAFYLLIDI = 17;
 const MATTEO_GUSO = 18;
+const NAVID_NOBANI = 19;
+const LESZEK_JAKUBOWSKI = 20;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -136,6 +138,24 @@ export const SPEAKERS: Speaker[] = [
         job: 'Matteo Guso, Freelance Data Scientist',
         social: 'https://twitter.com/_teoguso',
     },
+    {
+        name: 'Matteo Guso, Freelance Data Scientist',
+        photo: require('../assets/speakers/matteo_guso.jpg'),
+        job: 'Matteo Guso, Freelance Data Scientist',
+        social: 'https://twitter.com/_teoguso',
+    },
+    {
+        name: 'Navid Nobani, Freelance Data Scientist',
+        photo: require('../assets/speakers/navid_nobani.jpg'),
+        job: 'Navid Nobani, Freelance Data Scientist',
+        social: 'https://twitter.com/Navidenn',
+    },
+    {
+        name: 'Leszek Jakubowski, Senior Software Engineer @redhat',
+        photo: require('../assets/speakers/navid_nobani.jpg'),
+        job: 'Leszek Jakubowski, Senior Software Engineer @redhat',
+        social: 'https://twitter.com/Makdaam',
+    },
 ];
 
 export const SPONSORS: Sponsor[][] = [
@@ -245,8 +265,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 11,
         time: '11:54',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Python + Neo4j: How a Graph DB can make a transit app more intelligent",
+        type: Types.TALK,
+        speaker: NAVID_NOBANI,
     },
     {
         order: 12,
@@ -264,8 +285,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 14,
         time: '12:30',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Ops is like tetris",
+        type: Types.TALK,
+        speaker: LESZEK_JAKUBOWSKI,
     },
     {
         order: 15,
