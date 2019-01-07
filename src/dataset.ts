@@ -139,15 +139,9 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/_teoguso',
     },
     {
-        name: 'Matteo Guso, Freelance Data Scientist',
-        photo: require('../assets/speakers/matteo_guso.jpg'),
-        job: 'Matteo Guso, Freelance Data Scientist',
-        social: 'https://twitter.com/_teoguso',
-    },
-    {
-        name: 'Navid Nobani, Freelance Data Scientist',
+        name: 'Navid Nobani, Data Scientist @tabulaex',
         photo: require('../assets/speakers/navid_nobani.jpg'),
-        job: 'Navid Nobani, Freelance Data Scientist',
+        job: 'Navid Nobani, Data Scientist @tabulaex',
         social: 'https://twitter.com/Navidenn',
     },
     {
@@ -279,15 +273,16 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 13,
         time: '12:18',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Ops is like tetris",
+        type: Types.TALK,
+        speaker: LESZEK_JAKUBOWSKI,
+
     },
     {
         order: 14,
         time: '12:30',
-        title: "Ops is like tetris",
-        type: Types.TALK,
-        speaker: LESZEK_JAKUBOWSKI,
+        title: "Free slot",
+        type: Types.OTHER,
     },
     {
         order: 15,
