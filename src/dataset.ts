@@ -24,6 +24,7 @@ const MATTEO_GUSO = 18;
 const NAVID_NOBANI = 19;
 const LESZEK_JAKUBOWSKI = 20;
 const MIROSLAV_ŠEDIVÝ = 21;
+const RICCARDO_MAGLIOCCHETTI = 22;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -157,6 +158,12 @@ export const SPEAKERS: Speaker[] = [
         job: 'Miroslav Šedivý, Senior Software Developer at solute gmbh',
         social: 'https://twitter.com/eumiro',
     },
+    {
+        name: 'Riccardo Magliocchetti, Free Software Developer,',
+        photo: require('../assets/speakers/riccardo_magliocchetti.png'),
+        job: 'Riccardo Magliocchetti, Free Software Developer,',
+        social: 'https://twitter.com/rmistaken',
+    },
 ];
 
 export const SPONSORS: Sponsor[][] = [
@@ -287,8 +294,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 14,
         time: '12:30',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "The feeling when your country pays for FLOSS development",
+        type: Types.TALK,
+        speaker: RICCARDO_MAGLIOCCHETTI,
     },
     {
         order: 15,
