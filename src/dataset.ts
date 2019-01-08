@@ -159,9 +159,9 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/eumiro',
     },
     {
-        name: 'Riccardo Magliocchetti, Free Software Developer,',
+        name: 'Riccardo Magliocchetti, Free Software Developer',
         photo: require('../assets/speakers/riccardo_magliocchetti.png'),
-        job: 'Riccardo Magliocchetti, Free Software Developer,',
+        job: 'Riccardo Magliocchetti, Free Software Developer',
         social: 'https://twitter.com/rmistaken',
     },
 ];
