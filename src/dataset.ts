@@ -23,6 +23,7 @@ const MEILI_TRIANTAFYLLIDI = 17;
 const MATTEO_GUSO = 18;
 const NAVID_NOBANI = 19;
 const LESZEK_JAKUBOWSKI = 20;
+const MIROSLAV_ŠEDIVÝ = 21;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -149,6 +150,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/leszek_jakubowski.jpg'),
         job: 'Leszek Jakubowski, Senior Software Engineer @redhat',
         social: 'https://twitter.com/Makdaam',
+    },
+    {
+        name: 'Miroslav Šedivý, Senior Software Developer at solute gmbh',
+        photo: require('../assets/speakers/miroslav_sedivy.jpg'),
+        job: 'Miroslav Šedivý, Senior Software Developer at solute gmbh',
+        social: 'https://twitter.com/eumiro',
     },
 ];
 
@@ -375,8 +382,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 28,
         time: '17:18',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "A Day Has Only 24±1 Hours",
+        type: Types.TALK,
+        speaker: MIROSLAV_ŠEDIVÝ,
     },
 
     {
