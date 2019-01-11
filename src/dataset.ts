@@ -25,6 +25,8 @@ const NAVID_NOBANI = 19;
 const LESZEK_JAKUBOWSKI = 20;
 const MIROSLAV_ŠEDIVÝ = 21;
 const RICCARDO_MAGLIOCCHETTI = 22;
+const MARTIN_HACKER = 23;
+const ARTUR_CZEPIEL = 24;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -159,10 +161,22 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/eumiro',
     },
     {
-        name: 'Riccardo Magliocchetti, Free Software Developer',
+        name: 'Riccardo Magliocchetti, Software Tinkerer',
         photo: require('../assets/speakers/riccardo_magliocchetti.png'),
-        job: 'Riccardo Magliocchetti, Free Software Developer',
+        job: 'Riccardo Magliocchetti, Software Tinkerer',
         social: 'https://twitter.com/rmistaken',
+    },
+    {
+        name: 'Martin Häcker, Software Tinkerer',
+        photo: require('../assets/speakers/riccardo_magliocchetti.png'),
+        job: 'Martin Häcker, Software Tinkerer',
+        social: 'https://twitter.com/dontwannatell',
+    },
+    {
+        name: 'Artur Czepiel, Software Tinkerer',
+        photo: require('../assets/speakers/riccardo_magliocchetti.png'),
+        job: 'Artur Czepiel, Software Tinkerer',
+        social: 'https://twitter.com/artcz',
     },
 ];
 
@@ -246,7 +260,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 7,
         time: '10:48',
-        title: "Detecting Compositional Features in Piet Mondrians Paintings with OpenCV",
+        title: "Detecting Compositional Features in Piet Mondrian's Paintings with OpenCV",
         type: Types.TALK,
         speaker: FINN_PAULS,
     },
@@ -301,8 +315,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 15,
         time: '12:42',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Friendly python assertions in the expect style",
+        type: Types.TALK,
+        speaker: MARTIN_HACKER,
     },
     {
         order: 16,
@@ -404,8 +419,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 30,
         time: '17:42',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Connecting the dots.",
+        type: Types.TALK,
+        speaker: ARTUR_CZEPIEL,
     },
     {
         order: 31,
