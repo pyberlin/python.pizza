@@ -167,15 +167,15 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/rmistaken',
     },
     {
-        name: 'Martin Häcker, Software Tinkerer',
-        photo: require('../assets/speakers/riccardo_magliocchetti.png'),
-        job: 'Martin Häcker, Software Tinkerer',
+        name: 'Martin Häcker, Software Developer',
+        photo: require('../assets/speakers/martin_hacker.jpg'),
+        job: 'Martin Häcker, Software Developer',
         social: 'https://twitter.com/dontwannatell',
     },
     {
-        name: 'Artur Czepiel, Software Tinkerer',
-        photo: require('../assets/speakers/riccardo_magliocchetti.png'),
-        job: 'Artur Czepiel, Software Tinkerer',
+        name: 'Artur Czepiel, Software Developer',
+        photo: require('../assets/speakers/artur_czepiel.jpg'),
+        job: 'Artur Czepiel, Software Developer',
         social: 'https://twitter.com/artcz',
     },
 ];
