@@ -26,7 +26,8 @@ const LESZEK_JAKUBOWSKI = 20;
 const MIROSLAV_ŠEDIVÝ = 21;
 const RICCARDO_MAGLIOCCHETTI = 22;
 const MARTIN_HACKER = 23;
-const ARTUR_CZEPIEL = 24;
+const DAVIDE_RIZZO = 24;
+const ARTUR_CZEPIEL = 25;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -171,6 +172,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/martin_hacker.jpg'),
         job: 'Martin Häcker, Software Developer',
         social: 'https://twitter.com/dontwannatell',
+    },
+    {
+        name: 'Davide Rizzo, Backend Developer @smartrecruiters',
+        photo: require('../assets/speakers/davide_rizzo.jpg'),
+        job: 'Davide Rizzo, Backend Developer @smartrecruiters',
+        social: 'https://twitter.com/davrizzo',
     },
     {
         name: 'Artur Czepiel, Software Developer',
@@ -399,8 +406,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 27,
         time: '17:06',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Structured concurrency in Python with Trio",
+        type: Types.TALK,
+        speaker: DAVIDE_RIZZO,
     },
     {
         order: 28,
