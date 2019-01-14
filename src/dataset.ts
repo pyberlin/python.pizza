@@ -27,7 +27,8 @@ const MIROSLAV_ŠEDIVÝ = 21;
 const RICCARDO_MAGLIOCCHETTI = 22;
 const MARTIN_HACKER = 23;
 const DAVIDE_RIZZO = 24;
-const ARTUR_CZEPIEL = 25;
+const THIAGO_SILVA = 25;
+const ARTUR_CZEPIEL = 26;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -178,6 +179,12 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/davide_rizzo.jpg'),
         job: 'Davide Rizzo, Backend Developer @smartrecruiters',
         social: 'https://twitter.com/davrizzo',
+    },
+    {
+        name: 'Thiago Silva, Senior Software Developer at metr.systems',
+        photo: require('../assets/speakers/thiago_silva.jpg'),
+        job: 'Thiago Silva, Senior Software Developer at metr.systems',
+        social: 'https://twitter.com/thiagogds',
     },
     {
         name: 'Artur Czepiel, Software Developer',
@@ -421,8 +428,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 29,
         time: '17:30',
-        title: "Free slot",
-        type: Types.OTHER,
+        title: "Testing embedded code",
+        type: Types.TALK,
+        speaker: THIAGO_SILVA,
     },
     {
         order: 30,
