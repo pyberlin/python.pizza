@@ -239,7 +239,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 2,
         time: '09:30',
-        title: "Keynote: TBA",
+        title: "Keynote: Innovation and Community",
         type: Types.TALK,
         speaker: NAOMI_CEDER,
     },
