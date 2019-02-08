@@ -17,18 +17,17 @@ const RICHARD_GOULD = 11;
 const JEREMY_TULOUP = 12;
 const MIKA_NAYLOR = 13;
 const DANIELA_CRACIUN = 14;
-const FINN_PAULS = 15;
-const PASCAL_WENGERTER = 16;
-const MEILI_TRIANTAFYLLIDI = 17;
-const MATTEO_GUSO = 18;
-const NAVID_NOBANI = 19;
-const LESZEK_JAKUBOWSKI = 20;
-const MIROSLAV_ŠEDIVÝ = 21;
-const RICCARDO_MAGLIOCCHETTI = 22;
-const MARTIN_HACKER = 23;
-const DAVIDE_RIZZO = 24;
-const THIAGO_SILVA = 25;
-const ARTUR_CZEPIEL = 26;
+const PASCAL_WENGERTER = 15;
+const MEILI_TRIANTAFYLLIDI = 16;
+const MATTEO_GUSO = 17;
+const NAVID_NOBANI = 18;
+const LESZEK_JAKUBOWSKI = 10;
+const MIROSLAV_ŠEDIVÝ = 20;
+const RICCARDO_MAGLIOCCHETTI = 21;
+const MARTIN_HACKER = 22;
+const DAVIDE_RIZZO = 23;
+const THIAGO_SILVA = 24;
+const ARTUR_CZEPIEL = 25;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -119,12 +118,6 @@ export const SPEAKERS: Speaker[] = [
         photo: require('../assets/speakers/daniela_craciun.jpg'),
         job: 'Daniela Crăciun, Software Engineer @deliveryhero',
         social: 'https://github.com/danielacraciun',
-    },
-    {
-        name: 'Finn Pauls, Freelance Software Engineer',
-        photo: require('../assets/speakers/finn_pauls.jpg'),
-        job: 'Finn Pauls, Freelance Software Engineer',
-        social: 'https://twitter.com/finnpauls',
     },
     {
         name: 'Pascal Wengerter, co-Founder | MVPbuilder | basemate',
@@ -274,9 +267,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 7,
         time: '10:48',
-        title: "Detecting Compositional Features in Piet Mondrian's Paintings with OpenCV",
+        title: "Bring your C++ project to Python land",
         type: Types.TALK,
-        speaker: FINN_PAULS,
+        speaker: CRISTIAN_MAUREIRA_FREDES,
     },
     {
         order: 8,
@@ -287,95 +280,88 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 9,
         time: '11:30',
-        title: "Bring your C++ project to Python land",
-        type: Types.TALK,
-        speaker: CRISTIAN_MAUREIRA_FREDES,
-    },
-    {
-        order: 10,
-        time: '11:42',
         title: "Ravioli 🆚 Pelmeni software architecture (microservices vs services)",
         type: Types.TALK,
         speaker: ANASTASIIA_TYMOSHCHUK,
     },
     {
-        order: 11,
-        time: '11:54',
+        order: 10,
+        time: '11:42',
         title: "Python + Neo4j: How a Graph DB can make a transit app more intelligent",
         type: Types.TALK,
         speaker: NAVID_NOBANI,
     },
     {
-        order: 12,
-        time: '12:06',
+        order: 11,
+        time: '11:54',
         title: "Make your Big O smaller",
         type: Types.TALK,
         speaker: MEILI_TRIANTAFYLLIDI,
     },
     {
-        order: 13,
-        time: '12:18',
+        order: 12,
+        time: '12:06',
         title: "Ops is like tetris",
         type: Types.TALK,
         speaker: LESZEK_JAKUBOWSKI,
     },
     {
-        order: 14,
-        time: '12:30',
+        order: 13,
+        time: '12:18',
         title: "The feeling when your country pays for FLOSS development",
         type: Types.TALK,
         speaker: RICCARDO_MAGLIOCCHETTI,
     },
     {
-        order: 15,
-        time: '12:42',
+        order: 14,
+        time: '12:30',
         title: "Friendly python assertions in the expect style",
         type: Types.TALK,
         speaker: MARTIN_HACKER,
     },
     {
-        order: 16,
-        time: '13:00',
+        order: 15,
+        time: '12:45',
         title: '🍕 Oh gosh pizza 🍕',
         type: Types.LUNCH,
     },
     {
-        order: 17,
+        order: 16,
         time: '14:30',
         title: "Keynote: Why you should pursue public speaking and how to get there",
         type: Types.TALK,
         speaker: YENNY_CHEUNG,
     },
     {
-        order: 18,
+        order: 17,
         time: '15:00',
         title: "Strawberry: a new GraphQL library for Python",
         type: Types.TALK,
         speaker: PATRICK_ARMINIO,
     },
     {
-        order: 19,
+        order: 18,
         time: '15:12',
         title: "Building - Distributed - Data Science Team",
         type: Types.TALK,
         speaker: AVARE_STEWART,
     },
     {
-        order: 20,
+        order: 19,
         time: '15:24',
         title: "Inspecting CPython Bytecode in JupyterLab",
         type: Types.TALK,
         speaker: JEREMY_TULOUP,
     },
     {
-        order: 21,
+        order: 20,
         time: '15:36',
         title: "Beyond the pip",
         type: Types.TALK,
         speaker: DANIELA_CRACIUN,
     },
     {
-        order: 22,
+        order: 21,
         time: '15:48',
         title: "PDf-print all your data for fun and profit!",
         type: Types.TALK,
@@ -383,42 +369,42 @@ export const SCHEDULE: Schedule[] = [
     },
 
     {
-        order: 23,
+        order: 22,
         time: '16:00',
         title: 'Break',
         type: Types.BREAK,
     },
 
     {
-        order: 24,
+        order: 23,
         time: '16:30',
         title: "Code Faster By Improving Your Memory",
         type: Types.TALK,
         speaker: RICHARD_GOULD,
     },
     {
-        order: 25,
+        order: 24,
         time: '16:42',
         title: "Any Formatter You Like, As Long As Its Black",
         type: Types.TALK,
         speaker: MIKA_NAYLOR,
     },
     {
-        order: 26,
+        order: 25,
         time: '16:54',
         title: "Will it dockerize?",
         type: Types.TALK,
         speaker: MATTEO_GUSO,
     },
     {
-        order: 27,
+        order: 26,
         time: '17:06',
         title: "Structured concurrency in Python with Trio",
         type: Types.TALK,
         speaker: DAVIDE_RIZZO,
     },
     {
-        order: 28,
+        order: 27,
         time: '17:18',
         title: "A Day Has Only 24±1 Hours",
         type: Types.TALK,
@@ -426,27 +412,27 @@ export const SCHEDULE: Schedule[] = [
     },
 
     {
-        order: 29,
+        order: 28,
         time: '17:30',
         title: "Testing embedded code",
         type: Types.TALK,
         speaker: THIAGO_SILVA,
     },
     {
-        order: 30,
+        order: 29,
         time: '17:42',
         title: "Connecting the dots.",
         type: Types.TALK,
         speaker: ARTUR_CZEPIEL,
     },
     {
-        order: 31,
+        order: 30,
         time: '18:15',
         title: 'Closing',
         type: Types.OTHER,
     },
     {
-        order: 32,
+        order: 31,
         time: '18:30',
         title: 'Happy hour & Networking',
         type: Types.OTHER,
