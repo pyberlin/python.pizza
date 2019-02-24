@@ -216,22 +216,10 @@ export const SPONSORS: Sponsor[][] = [
     ],
     [
         {
-            id: 'wooga',
-            name: 'Wooga',
-            photo: require('Assets/sponsors/wooga_logo.png'),
-            link: 'https://www.wooga.com/',
-        },
-        {
-            id: 'psf',
-            name: 'Python Software Foundation',
-            photo: require('Assets/sponsors/psf-logo-narrow-256x84-alpha.png'),
-            link: 'https://www.python.org/psf/',
-        },
-        {
-            id: 'eps',
-            name: 'EuroPython Society',
-            photo: require('Assets/sponsors/eps.png'),
-            link: 'https://www.europython-society.org/',
+            id: 'pysv',
+            name: 'Python Software Verband',
+            photo: require('Assets/sponsors/pysv.pgn'),
+            link: 'https://python-verband.org/',
         },
     ]
 ];
