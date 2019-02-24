@@ -218,7 +218,7 @@ export const SPONSORS: Sponsor[][] = [
         {
             id: 'pysv',
             name: 'Python Software Verband',
-            photo: require('Assets/sponsors/pysv.pgn'),
+            photo: require('Assets/sponsors/pysv.png'),
             link: 'https://python-verband.org/',
         },
     ]
