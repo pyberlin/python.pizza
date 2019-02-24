@@ -214,6 +214,32 @@ export const SPONSORS: Sponsor[][] = [
             link: 'https://www.manning.com/',
         },
     ],
+    [
+        {
+            id: 'wooga',
+            name: 'Wooga',
+            photo: require('Assets/sponsors/wooga_logo.png'),
+            link: 'https://www.wooga.com/',
+        },
+        {
+            id: 'psf',
+            name: 'Python Software Foundation',
+            photo: require('Assets/sponsors/psf-logo-narrow-256x84-alpha.png'),
+            link: 'https://www.python.org/psf/',
+        },
+        {
+            id: 'eps',
+            name: 'EuroPython Society',
+            photo: require('Assets/sponsors/eps.png'),
+            link: 'https://www.europython-society.org/',
+        },
+        {
+            id: 'manning',
+            name: 'Manning',
+            photo: require('Assets/sponsors/Manninglogo_outline.png'),
+            link: 'https://www.manning.com/',
+        },
+    ]
 ];
 
 export const SCHEDULE: Schedule[] = [
