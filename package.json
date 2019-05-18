@@ -13,7 +13,7 @@
         "@types/react-dom": "16.0.6",
         "eslint": "^4.5.0",
         "eslint-config-synacor": "^1.1.0",
-        "if-env": "^1.0.0",
+        "if-env": "1.0.4",
         "poi": "10.2.9",
         "react-hot-loader": "4.3.3"
     },
